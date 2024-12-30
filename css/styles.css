@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+html {
+   box-sizing: border-box;
+   font-size: 16px;
+}
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+
+body {
+   margin: 0;
+   background-color: #466e1e;
+}
+
+/* Header */
+header {
+   text-align: center;
+   padding: 1.7rem;
+   font-family: "Agu Display", serif;
+   background-color: #466e1e;
+   color: #babdc0;
+}
+
+svg {
+   width: 50px;
+}
+
+.container {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 1rem;
+}
+
+header .description {
+   font-size: 1.5rem;
+   margin-top: 0;
+   margin-bottom: 0.5rem;
+   font-weight: 500;
+}
+
+#title {
+   font-size: 3rem;
+   margin-top: 0.7rem;
+   text-shadow: 0px 0px 5px #BABDC0;
+}
+
+/* Hero */
+.hero {
+   padding: 3rem 0;
+   background-color: #182907;
+   color: whitesmoke;
+}
+
+figure {
+   margin: 0;
+}
+
+.hero #img-div{
+   text-align: center;
+}
+
+.hero #image {
+   border-radius: 15px;
+   -webkit-box-shadow: 0px -1px 31px -3px rgba(94,142,47,1);
+   -moz-box-shadow: 0px -1px 31px -3px rgba(94,142,47,1);
+   box-shadow: 0px -1px 31px -3px rgba(94,142,47,1);
+}
+
+.hero #img-div img{
+   width: 62.5em;
+   height: auto;
+   max-width: 1000px;
+}
+
+#img-div figcaption {
+   margin: 1rem 0;
+   font-size: 2rem;
+}
+
+/* Main */
+.main, footer, .hero {
+   font-family: "Josefin Sans", serif;
+}
+
+.main {
+   width: 50%;
+   margin: 0 auto;
+}
+
+#tribute-info ul {
+   margin: 0 auto 50px auto;
+   width: 40%;
+}
+
+#tribute-info h2{
+   text-align: center;
+   padding: 2rem;
+   font-size: 1.7rem;
+   text-wrap: nowrap;
+   color: #ced2d6;
+   text-shadow: 0px 0px 5px #BABDC0;
+}
+
+#tribute-info ul li {
+   margin: 20px 0;
+   font-size: 1.2rem;
+   color: #ced2d6;
+}
+
+#tribute-info ul li span {
+   font-weight: 800;
+}
+
+footer {
+   width: 50%;
+   margin: 0 auto;
+   text-align: center;
+   padding-bottom: 2rem;
+}
+
+footer p{
+   font-weight: 500;
+   font-size: 1.4rem;
+   color: #ced2d6;
+}
+
+footer a {
+   text-decoration: none;
+   font-weight: 600;
+}
